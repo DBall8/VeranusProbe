@@ -1,6 +1,6 @@
 [submodule "Veranus/src/utilities"]
-	path = Veranus/src/utilities
+	path = VeranusProbe/src/utilities
 	url = https://github.com/DBall8/CppUtilities.git
 [submodule "Veranus/src/drivers"]
-	path = Veranus/src/drivers
+	path = VeranusProbe/src/drivers
 	url = https://github.com/DBall8/ArduinoDrivers.git
