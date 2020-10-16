@@ -10,6 +10,11 @@
 #include "drivers/i2c/atmega328I2c/Atmega328I2c.hpp"
 #include "drivers/climateSensor/hdc1080/Hdc1080.hpp"
 #include "drivers/assert/Assert.hpp"
+#include "drivers/adc/atmega328/Atmega328Adc.hpp"
+#include "drivers/phototransistor/PhotoTransistor.hpp"
+#include "utilities/filter/lowPassFilter/LowPassFilter.hpp"
+#include "drivers/radio/nrf24l01/Nrf24l01.hpp"
+#include "drivers/spi/atmega328p/Atmega328Spi.hpp"
 
 using namespace ticCounter;
 using namespace timer;
@@ -20,6 +25,11 @@ using namespace interrupt;
 using namespace Lcd;
 using namespace I2c;
 using namespace ClimateSensor;
+using namespace adc;
+using namespace photoTransistor;
+using namespace filter;
+using namespace radio;
+using namespace spi;
 
 // CPU Clock frequency
 const static uint32_t CPU_CLK = 16000000;
@@ -40,9 +50,16 @@ const static uint16_t TOP = 255;
 static Atmega328Timer tmr(Timer::TIMER_2, CTC, PRESCALE, TOP, &HandleTicInterrupt);
 
 // Set up a software timer that decides how often to run the main loop
-const static uint32_t UPDATE_TIME_SECONDS = 15;
-static SoftwareTimer updateTimer(ticHandler.secondsToTics(UPDATE_TIME_SECONDS), &ticHandler);
+const static uint32_t CLIMATE_UPDATE_TIME_SECONDS = 60;
+const static uint32_t LIGHT_UPDATE_TIME_SECONDS = 15;
+
+static SoftwareTimer updateTimer(1, &ticHandler);
+static SoftwareTimer climateTimer(ticHandler.secondsToTics(CLIMATE_UPDATE_TIME_SECONDS), &ticHandler);
+static SoftwareTimer lightTimer(ticHandler.secondsToTics(LIGHT_UPDATE_TIME_SECONDS), &ticHandler);
+
 SoftwareTimer* pUpdateTimer = &updateTimer;
+SoftwareTimer* pClimateTimer = &climateTimer;
+SoftwareTimer* pLightTimer = &lightTimer;
 
 // Interrupt control object, must be enabled on start
 static Atmega328Interrupt interruptControl;
@@ -63,6 +80,14 @@ static Atmega328Dio dataPin3(Port::D, 5, Mode::OUTPUT, Level::L_LOW, false, fals
 static Atmega328Dio rsPin(Port::C, 3, Mode::OUTPUT, Level::L_LOW, false, false);
 static Atmega328Dio rwPin(Port::C, 2, Mode::OUTPUT, Level::L_LOW, false, false);
 static Atmega328Dio oePin(Port::C, 1, Mode::OUTPUT, Level::L_LOW, false, false);
+
+static Atmega328Dio radioCePin(Port::D, 6, Mode::OUTPUT, Level::L_LOW, false, false);
+static Atmega328Dio radioCsnPin(Port::D, 7, Mode::OUTPUT, Level::L_LOW, false, false);
+
+// TODO - pin for LCD backlight, add PWM control
+static Atmega328Dio lcdBacklightPin(Port::B, 1, Mode::OUTPUT, Level::L_HIGH, false, false);
+
+static Atmega328Adc lightSensorAdc(Atmega328Channel::ADC_0, Prescaler::DIV_128, Reference::AREF);
 
 IDio* pRsPin = &rsPin;
 IDio* pRwPin = &rwPin;
@@ -90,6 +115,14 @@ static Atmega328I2c i2c(I2cBitRate::BR_100_KBPS, &i2cTimeoutTimer);
 static Hdc1080ClimateSensor climateSensor(&i2c, &ticHandler);
 IClimateSensor* pClimateSensor = &climateSensor;
 
+static LowPassFilter lightSensorFilter(4, 100);
+static PhotoTransistor lightSensor(&lightSensorAdc, &lightSensorFilter);
+PhotoTransistor* pLightSensor = &lightSensor;
+
+static Atmega328Spi spiDriver(&radioCsnPin, true);
+static Nrf24l01 rfTransceiver(&radioCePin, &spiDriver);
+IRadio* pRadio = &rfTransceiver;
+
 void initializeDevices()
 {
     Delay::Initialize(&ticHandler); // Initialize delay timer
@@ -99,11 +132,10 @@ void initializeDevices()
     tmr.initialize();                       // Start tic tmr
     serialUart.initialize();                // Start serial communication
     PrintHandler::initialize(&serialUart);  // Initialize print handler
-    pUpdateTimer->enable();                 // Start the update timer
 
     pDisplay->setup();
     if (!pClimateSensor->initialize())
     {
         PRINTLN("Failed to inialize climate sensor.");
-    } 
+    }
 }

@@ -4,3 +4,9 @@
 [submodule "Veranus/src/drivers"]
 	path = VeranusProbe/src/drivers
 	url = https://github.com/DBall8/ArduinoDrivers.git
+[submodule "VeranusReceiver/src/utilities"]
+	path = VeranusReceiver/src/utilities
+	url = https://github.com/DBall8/CppUtilities
+[submodule "VeranusReceiver/src/drivers"]
+	path = VeranusReceiver/src/drivers
+	url = https://github.com/DBall8/ArduinoDrivers

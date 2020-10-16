@@ -3,7 +3,32 @@
 #include "drivers/timer/Delay.hpp"
 #include "version.hpp"
 
-void updateSensors();
+#define DEBUG
+
+const static uint8_t PROBE_ID = 1;
+
+const static uint8_t ID_SIZE = sizeof(PROBE_ID);
+
+struct VeranusData
+{
+  uint8_t probeId;
+  float tempF;
+  float humidity;
+  float light;
+};
+const static uint8_t V_DATA_SIZE = sizeof(VeranusData);
+
+static VeranusData latestData = 
+{
+  .probeId = PROBE_ID,
+  .tempF = 0,
+  .humidity = 0,
+  .light = 0
+};
+
+void updateReceiver();
+void updateLightSensor();
+void updateClimateSensor();
 void loop();
 
 int main(void)
@@ -11,8 +36,21 @@ int main(void)
   initializeDevices();
 
   PRINTLN("Running build %d.%d", V_MAJOR, V_MINOR);
+  PRINTLN("Probe ID: %d", PROBE_ID);
 
-  updateSensors();
+  // Initialize radio to listen for requests for data from the Receiver
+  pRadio->enable();
+  pRadio->setPayloadSize(ID_SIZE);
+  pRadio->startReceiving(PROBE_ID);
+
+  // Get initial readings for each sensor
+  updateClimateSensor();
+  updateLightSensor();
+
+  // Start the update timers
+  pUpdateTimer->enable();
+  pClimateTimer->enable();
+  pLightTimer->enable();
 
   for (;;) {
 
@@ -25,27 +63,82 @@ int main(void)
   return 0;
 }
 
-static uint32_t lastTic = 0;
 void loop()
 {
-  updateSensors();
+  if (pClimateTimer->hasPeriodPassed())
+  {
+    updateClimateSensor();
+
+    // Reset timer to ensure we do not try and read the sensor
+    // again before it is ready
+    pClimateTimer->reset();
+  }
+
+  if (pLightTimer->hasPeriodPassed())
+  {
+    updateLightSensor();
+  }
+
+  // Check if an update has been requested by the receiver
+  updateReceiver();
 }
 
-void updateSensors()
+void updateClimateSensor()
 {
-  int16_t tempF = 0;
-  int16_t humidity = 0;
-
+  // Try and get a new climate reading
   if (pClimateSensor->update())
   {
-    tempF = pClimateSensor->getTemperatureFahrenheit();
-    humidity = pClimateSensor->getRelativeHumidity();
-    PRINTLN("Temp: %dF, Humidity: %d%", tempF, humidity);
+    latestData.tempF = pClimateSensor->getTemperatureFahrenheit();
+    latestData.humidity = pClimateSensor->getRelativeHumidity();
+
+#ifdef DEBUG
+    PRINTLN("Temp: %dF, Humidity: %d%", (int16_t)latestData.tempF, (int16_t)latestData.humidity);
+#endif
+
+    // Update display
+    pDisplay->update((int16_t)latestData.tempF, (uint8_t)latestData.humidity);
   }
   else
   {
     PRINTLN("Failed to read from climate sensor.");
   }
+}
 
-  pDisplay->update(tempF, humidity);
+void updateLightSensor()
+{
+  pLightSensor->update();
+  latestData.light = pLightSensor->getLightPercent();
+
+#ifdef DEBUG
+  PRINTLN("Light: %d", (uint16_t)latestData.light);
+#endif
+}
+
+void updateReceiver()
+{
+  // Check if the receiver has requested any data from us
+  if (pRadio->isDataAvailable())
+  {
+    // Receive the ID the receiver is requesting to hear from
+    uint8_t id = 0;
+    pRadio->receive(&id, ID_SIZE);
+
+    if (id != PROBE_ID)
+    {
+      // This is the wrong ID for this probe, this should never happen
+      PRINTLN("Received wrong id: %d", id);
+      return;
+    }
+
+    // Receiver wants our latest data, so send it
+    pRadio->setPayloadSize(V_DATA_SIZE);
+    pRadio->startTransmitting(PROBE_ID);
+    if (!pRadio->transmit((uint8_t*)&latestData, V_DATA_SIZE))
+    {
+      PRINTLN("Transmission failed.");
+    }
+
+    pRadio->setPayloadSize(ID_SIZE);
+    pRadio->startReceiving(PROBE_ID);
+  }
 }
