@@ -2,35 +2,33 @@
 #include "drivers/timer/TicCounter.hpp"
 #include "drivers/timer/ATmega328/ATmega328Timer.hpp"
 #include "drivers/dio/atmega328/Atmega328Dio.hpp"
-#include "drivers/uart/atmega328Uart/Atmega328AsynchUart.hpp"
+#include "drivers/uart/atmega328/Atmega328AsynchUart.hpp"
 #include "drivers/interrupt/atmega328/Atmega328Interrupt.hpp"
 #include "utilities/print/Print.hpp"
 #include "drivers/timer/Delay.hpp"
 #include "drivers/lcd/dips082/Dips082Lcd.hpp"
-#include "drivers/i2c/atmega328I2c/Atmega328I2c.hpp"
+#include "drivers/i2c/atmega328/Atmega328I2c.hpp"
 #include "drivers/climateSensor/hdc1080/Hdc1080.hpp"
 #include "drivers/assert/Assert.hpp"
 #include "drivers/adc/atmega328/Atmega328Adc.hpp"
 #include "drivers/phototransistor/PhotoTransistor.hpp"
 #include "utilities/filter/lowPassFilter/LowPassFilter.hpp"
 #include "drivers/radio/nrf24l01/Nrf24l01.hpp"
-#include "drivers/spi/atmega328p/Atmega328Spi.hpp"
+#include "drivers/spi/atmega328/Atmega328Spi.hpp"
 #include "drivers/pwm/atmega328/Atmega328Pwm.hpp"
 
-using namespace ticCounter;
-using namespace timer;
-using namespace dio;
-using namespace softwareTimer;
-using namespace uart;
-using namespace interrupt;
+using namespace Tic;
+using namespace Timer;
+using namespace Dio;
+using namespace Uart;
+using namespace Interrupt;
 using namespace Lcd;
 using namespace I2c;
 using namespace ClimateSensor;
-using namespace adc;
-using namespace photoTransistor;
-using namespace filter;
-using namespace radio;
-using namespace spi;
+using namespace Adc;
+using namespace Filter;
+using namespace Radio;
+using namespace Spi;
 using namespace Pwm;
 
 // CPU Clock frequency

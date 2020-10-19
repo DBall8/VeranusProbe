@@ -8,13 +8,12 @@
 #include "drivers/radio/IRadio.hpp"
 
 extern ClimateSensor::IClimateSensor* pClimateSensor;
-extern photoTransistor::PhotoTransistor* pLightSensor;
+extern PhotoTransistor* pLightSensor;
 extern VeranusDisplay* pDisplay;
-extern radio::IRadio* pRadio;
-extern softwareTimer::SoftwareTimer* pUpdateTimer;
-extern softwareTimer::SoftwareTimer* pClimateTimer;
-extern softwareTimer::SoftwareTimer* pLightTimer;
-
+extern Radio::IRadio* pRadio;
+extern Timer::SoftwareTimer* pUpdateTimer;
+extern Timer::SoftwareTimer* pClimateTimer;
+extern Timer::SoftwareTimer* pLightTimer;
 
 void initializeDevices();
 
