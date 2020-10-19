@@ -2,6 +2,7 @@
 #include "utilities/print/Print.hpp"
 #include "drivers/timer/Delay.hpp"
 #include "version.hpp"
+#include "config.hpp"
 
 const static uint8_t PROBE_ID = 1;
 

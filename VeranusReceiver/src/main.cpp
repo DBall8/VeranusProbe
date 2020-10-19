@@ -2,9 +2,8 @@
 #include "utilities/print/Print.hpp"
 #include "drivers/timer/Delay.hpp"
 #include "version.hpp"
+#include "config.hpp"
 #include "utilities/Conversions.hpp"
-
-// #define DEBUG
 
 const static uint16_t REQUEST_TIME_SEC_DEFAULT = 60 * 15; // Default time between requests for data
 const static uint16_t REQUEST_TIME_SEC_FAILURE = 60 * 5; // Time between requests after a failure
