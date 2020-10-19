@@ -11,7 +11,7 @@ class VeranusDisplay
         ~VeranusDisplay();
 
         bool setup();
-        bool update(int16_t temperatureF, uint8_t humidity);
+        bool update(float temperatureF, float humidity);
 
     private:
         Lcd::ILcd* pLcd_;

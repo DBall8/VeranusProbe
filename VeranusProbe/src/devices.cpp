@@ -15,6 +15,7 @@
 #include "utilities/filter/lowPassFilter/LowPassFilter.hpp"
 #include "drivers/radio/nrf24l01/Nrf24l01.hpp"
 #include "drivers/spi/atmega328p/Atmega328Spi.hpp"
+#include "drivers/pwm/atmega328/Atmega328Pwm.hpp"
 
 using namespace ticCounter;
 using namespace timer;
@@ -30,6 +31,7 @@ using namespace photoTransistor;
 using namespace filter;
 using namespace radio;
 using namespace spi;
+using namespace Pwm;
 
 // CPU Clock frequency
 const static uint32_t CPU_CLK = 16000000;
@@ -86,6 +88,7 @@ static Atmega328Dio radioCsnPin(Port::D, 7, Mode::OUTPUT, Level::L_LOW, false, f
 
 // TODO - pin for LCD backlight, add PWM control
 static Atmega328Dio lcdBacklightPin(Port::B, 1, Mode::OUTPUT, Level::L_HIGH, false, false);
+//static Atmega328Pwm lcdBacklightPwm(Port::B, 1, 50, PwmMode::FAST, PwmResolution::RES_8_BIT);
 
 static Atmega328Adc lightSensorAdc(Atmega328Channel::ADC_0, Prescaler::DIV_128, Reference::AREF);
 
@@ -138,4 +141,6 @@ void initializeDevices()
     {
         PRINTLN("Failed to inialize climate sensor.");
     }
+
+    //lcdBacklightPwm.enable();
 }

@@ -3,8 +3,6 @@
 #include "drivers/timer/Delay.hpp"
 #include "version.hpp"
 
-#define DEBUG
-
 const static uint8_t PROBE_ID = 1;
 
 const static uint8_t ID_SIZE = sizeof(PROBE_ID);
@@ -91,16 +89,14 @@ void updateClimateSensor()
     latestData.tempF = pClimateSensor->getTemperatureFahrenheit();
     latestData.humidity = pClimateSensor->getRelativeHumidity();
 
-#ifdef DEBUG
-    PRINTLN("Temp: %dF, Humidity: %d%", (int16_t)latestData.tempF, (int16_t)latestData.humidity);
-#endif
+    DEBUG_PRINTLN("Temp: %fF, Humidity: %f%", latestData.tempF, latestData.humidity);
 
     // Update display
-    pDisplay->update((int16_t)latestData.tempF, (uint8_t)latestData.humidity);
+    pDisplay->update(latestData.tempF, latestData.humidity);
   }
   else
   {
-    PRINTLN("Failed to read from climate sensor.");
+    DEBUG_PRINTLN("Failed to read from climate sensor.");
   }
 }
 
@@ -109,9 +105,7 @@ void updateLightSensor()
   pLightSensor->update();
   latestData.light = pLightSensor->getLightPercent();
 
-#ifdef DEBUG
-  PRINTLN("Light: %d", (uint16_t)latestData.light);
-#endif
+  DEBUG_PRINTLN("Light: %d%", (uint16_t)latestData.light);
 }
 
 void updateReceiver()
@@ -126,7 +120,7 @@ void updateReceiver()
     if (id != PROBE_ID)
     {
       // This is the wrong ID for this probe, this should never happen
-      PRINTLN("Received wrong id: %d", id);
+      DEBUG_PRINTLN("Received wrong id: %d", id);
       return;
     }
 
@@ -135,7 +129,7 @@ void updateReceiver()
     pRadio->startTransmitting(PROBE_ID);
     if (!pRadio->transmit((uint8_t*)&latestData, V_DATA_SIZE))
     {
-      PRINTLN("Transmission failed.");
+      DEBUG_PRINTLN("Transmission failed.");
     }
 
     pRadio->setPayloadSize(ID_SIZE);

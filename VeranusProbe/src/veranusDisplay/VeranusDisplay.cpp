@@ -1,6 +1,7 @@
 #include "VeranusDisplay.hpp"
 #include "drivers/assert/Assert.hpp"
 #include "utilities/strings/Strings.hpp"
+#include "utilities/Conversions.hpp"
 
 using namespace Lcd;
 using namespace Strings;
@@ -71,8 +72,12 @@ bool VeranusDisplay::setup()
     pLcd_->display(HUMID_UNIT, UNIT_LEN);
 }
 
-bool VeranusDisplay::update(int16_t temperatureF, uint8_t humidity)
+bool VeranusDisplay::update(float temperatureF, float humidity)
 {
+    // Round to nearest whole value
+    temperatureF = round(temperatureF);
+    humidity = round(humidity);
+
     if (temperatureF_ != temperatureF)
     {
         temperatureF_ = temperatureF;
