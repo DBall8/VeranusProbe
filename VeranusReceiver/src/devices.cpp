@@ -2,22 +2,21 @@
 #include "drivers/timer/TicCounter.hpp"
 #include "drivers/timer/ATmega328/ATmega328Timer.hpp"
 #include "drivers/dio/atmega328/Atmega328Dio.hpp"
-#include "drivers/uart/atmega328Uart/Atmega328AsynchUart.hpp"
+#include "drivers/uart/atmega328/Atmega328AsynchUart.hpp"
 #include "drivers/interrupt/atmega328/Atmega328Interrupt.hpp"
 #include "utilities/print/Print.hpp"
 #include "drivers/timer/Delay.hpp"
 #include "drivers/assert/Assert.hpp"
 #include "drivers/radio/nrf24l01/Nrf24l01.hpp"
-#include "drivers/spi/atmega328p/Atmega328Spi.hpp"
+#include "drivers/spi/atmega328/Atmega328Spi.hpp"
 
-using namespace ticCounter;
-using namespace timer;
-using namespace dio;
-using namespace softwareTimer;
-using namespace uart;
-using namespace interrupt;
-using namespace radio;
-using namespace spi;
+using namespace Tic;
+using namespace Timer;
+using namespace Dio;
+using namespace Uart;
+using namespace Interrupt;
+using namespace Radio;
+using namespace Spi;
 
 const static uint16_t SENSOR_UPDATE_TIME_SEC = 60 * 5;
 const static uint16_t TIMEOUT_TIME_SEC = 10;

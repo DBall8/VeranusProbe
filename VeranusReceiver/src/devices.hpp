@@ -6,12 +6,12 @@
 #include "drivers/radio/IRadio.hpp"
 #include "drivers/uart/IUart.hpp"
 
-extern uart::IUart* pUart;
-extern radio::IRadio* pRadio;
-extern ticCounter::TicCounter* pTicHandler;
-extern softwareTimer::SoftwareTimer* pTimeoutTimer;
-extern softwareTimer::SoftwareTimer* pRequestTimer;
-extern softwareTimer::SoftwareTimer* pUpdateTimer;
+extern Uart::IUart* pUart;
+extern Radio::IRadio* pRadio;
+extern Tic::TicCounter* pTicHandler;
+extern Timer::SoftwareTimer* pTimeoutTimer;
+extern Timer::SoftwareTimer* pRequestTimer;
+extern Timer::SoftwareTimer* pUpdateTimer;
 
 void initializeDevices();
 
