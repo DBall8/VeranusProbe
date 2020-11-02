@@ -18,7 +18,6 @@ using namespace Interrupt;
 using namespace Radio;
 using namespace Spi;
 
-const static uint16_t SENSOR_UPDATE_TIME_SEC = 60 * 5;
 const static uint16_t TIMEOUT_TIME_SEC = 10;
 
 // CPU Clock frequency
@@ -41,12 +40,9 @@ static Atmega328Timer tmr(Timer::TIMER_2, CTC, PRESCALE, TOP, &HandleTicInterrup
 
 // Set up a software timer that decides how often to run the main loop
 static SoftwareTimer updateTimer(1, &ticHandler);
-static SoftwareTimer requestTimer(ticHandler.secondsToTics(SENSOR_UPDATE_TIME_SEC), &ticHandler);
 static SoftwareTimer timeoutTimer(ticHandler.secondsToTics(TIMEOUT_TIME_SEC), &ticHandler);
+
 SoftwareTimer* pUpdateTimer = &updateTimer;
-SoftwareTimer* pRequestTimer = &requestTimer;
-SoftwareTimer* pTimeoutTimer = &timeoutTimer;
-TicCounter* pTicHandler = &ticHandler;
 
 // Interrupt control object, must be enabled on start
 static Atmega328Interrupt interruptControl;
@@ -64,8 +60,14 @@ static Atmega328Dio radioCePin(Port::B, 0, Mode::OUTPUT, Level::L_LOW, false, fa
 static Atmega328Dio radioCsnPin(Port::D, 7, Mode::OUTPUT, Level::L_LOW, false, false);
 
 static Atmega328Spi spiDriver(&radioCsnPin, true);
-static Nrf24l01 rfTransceiver(&radioCePin, &spiDriver);
-IRadio* pRadio = &rfTransceiver;
+static Nrf24l01 radio(&radioCePin, &spiDriver);
+
+static VeranusReceiver veranusReceiver(probeIds,
+                                       NUM_PROBES,
+                                       &radio,
+                                       pUart,
+                                       &timeoutTimer);
+VeranusReceiver* pVeranusReceiver = &veranusReceiver;
 
 void initializeDevices()
 {
@@ -79,4 +81,5 @@ void initializeDevices()
     pUpdateTimer->enable();                 // Start the update timer
 
     spiDriver.enable();
+    radio.enable();
 }
