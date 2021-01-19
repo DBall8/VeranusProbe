@@ -14,12 +14,6 @@ int main(void)
 
 #ifdef DEBUG
   PRINTLN("Running build %d.%d", V_MAJOR, V_MINOR);
-  PRINT("Probes:");
-  for (uint8_t i=0; i<NUM_PROBES; i++)
-  {
-    PRINT(" %d,", probeIds[i]);
-  }
-  PRINTLN("");
 #endif
 
   for (;;) {

@@ -31,9 +31,7 @@ struct VeranusTransmission
 class VeranusReceiver
 {
     public:
-        VeranusReceiver(const uint8_t* probeIds,
-                        const uint16_t numProbes,
-                        Radio::IRadio* pRadio,
+        VeranusReceiver(Radio::IRadio* pRadio,
                         Uart::IUart* pUart,
                         Timer::SoftwareTimer* pTimeoutTimer);
         ~VeranusReceiver();
@@ -41,9 +39,6 @@ class VeranusReceiver
         void getUpdate(uint8_t probeId);
 
     private:
-        const uint8_t* probeIds_;
-        const uint16_t numProbes_;
-
         Radio::IRadio* pRadio_;
         Uart::IUart* pUart_;
         Timer::SoftwareTimer* pTimeoutTimer_;

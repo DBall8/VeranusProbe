@@ -9,12 +9,6 @@
 
 #include <stdint.h>
 
-const static uint8_t probeIds[] =
-{
-  1
-};
-const static uint8_t NUM_PROBES = sizeof(probeIds);
-
 extern Uart::IUart* pUart;
 extern Timer::SoftwareTimer* pUpdateTimer;
 extern VeranusReceiver* pVeranusReceiver;

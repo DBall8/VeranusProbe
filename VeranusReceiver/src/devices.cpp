@@ -62,9 +62,7 @@ static Atmega328Dio radioCsnPin(Port::D, 7, Mode::OUTPUT, Level::L_LOW, false, f
 static Atmega328Spi spiDriver(&radioCsnPin, true);
 static Nrf24l01 radio(&radioCePin, &spiDriver);
 
-static VeranusReceiver veranusReceiver(probeIds,
-                                       NUM_PROBES,
-                                       &radio,
+static VeranusReceiver veranusReceiver(&radio,
                                        pUart,
                                        &timeoutTimer);
 VeranusReceiver* pVeranusReceiver = &veranusReceiver;

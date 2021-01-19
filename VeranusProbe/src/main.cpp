@@ -4,7 +4,7 @@
 #include "version.hpp"
 #include "config.hpp"
 
-const static uint8_t PROBE_ID = 1;
+const static uint8_t PROBE_ID = 3;
 
 const static uint8_t ID_SIZE = sizeof(PROBE_ID);
 

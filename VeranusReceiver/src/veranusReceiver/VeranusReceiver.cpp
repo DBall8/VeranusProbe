@@ -2,19 +2,16 @@
 
 #include "utilities/print/Print.hpp"
 #include "utilities/Conversions.hpp"
+#include "drivers/timer/Delay.hpp"
 
 static uint32_t successes = 0;
 static uint32_t failures = 0;
 
 const static uint8_t FAILURE_CODE = 0xff;
 
-VeranusReceiver::VeranusReceiver(const uint8_t* probeIds,
-                                 const uint16_t numProbes,
-                                 Radio::IRadio* pRadio,
+VeranusReceiver::VeranusReceiver(Radio::IRadio* pRadio,
                                  Uart::IUart* pUart,
                                  Timer::SoftwareTimer* pTimeoutTimer):
-    probeIds_(probeIds),
-    numProbes_(numProbes),
     pRadio_(pRadio),
     pUart_(pUart),
     pTimeoutTimer_(pTimeoutTimer)
@@ -34,6 +31,8 @@ bool VeranusReceiver::request(uint8_t probeId)
 #endif
     return false;
   }
+
+  //DELAY(1);
 
   return pRadio_->transmit(&probeId, ID_SIZE);
 }
@@ -81,7 +80,7 @@ bool VeranusReceiver::receive(uint8_t probeId)
 
 void VeranusReceiver::getUpdate(uint8_t probeId)
 {
-  // Request an update from each probe
+    // Request an update from each probe
     bool success = request(probeId);
 
 #ifdef DEBUG
@@ -118,7 +117,7 @@ void VeranusReceiver::transmitOverUart(VeranusData data)
   VeranusTransmission transmission;
   transmission.probeId = data.probeId;
   transmission.light = data.light;
-  transmission.temp = degreesFToC(data.tempF);
+  transmission.temp = data.tempF;
   transmission.humid = data.humidity;
   pUart_->write((uint8_t*)&transmission, sizeof(transmission));
 }

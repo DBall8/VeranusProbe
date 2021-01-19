@@ -22,6 +22,7 @@ static void readProbes(uint16_t argc, ArgV argv)
     {
         // Incorrect number of parameters
         PRINTLN("Incorrect # of params");
+        return;
     }
 
     uint8_t probeId = (uint8_t)Strings::str2int(argv[1]);
