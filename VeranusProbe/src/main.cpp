@@ -37,11 +37,6 @@ int main(void)
   PRINTLN("Running build %d.%d", V_MAJOR, V_MINOR);
   PRINTLN("Probe ID: %d", PROBE_ID);
 
-  // Initialize radio to listen for requests for data from the Receiver
-  pRadio->enable();
-  pRadio->setPayloadSize(ID_SIZE);
-  pRadio->startReceiving(PROBE_ID);
-
   // Get initial readings for each sensor
   updateClimateSensor();
   updateLightSensor();
@@ -64,22 +59,40 @@ int main(void)
 
 void loop()
 {
-  if (pClimateTimer->hasPeriodPassed())
-  {
-    updateClimateSensor();
+  const static uint8_t rxBuffLen = 10;
+  static uint8_t rxBuff[rxBuffLen];
 
-    // Reset timer to ensure we do not try and read the sensor
-    // again before it is ready
-    pClimateTimer->reset();
+  if (pWifiSerial->isDataAvailable())
+  {
+    uint16_t numBytes = pWifiSerial->read(rxBuff, rxBuffLen);
+    
+    for (uint8_t i=0; i<numBytes; i++)
+    {
+      rxBuff[i]++;
+    }
+
+    pWifiSerial->write(rxBuff, numBytes);
   }
 
-  if (pLightTimer->hasPeriodPassed())
-  {
-    updateLightSensor();
-  }
+  // static uint8_t d = (uint8_t)'b';
+  // pWifiSerial->write(&d, 1);
+  // d++;
 
-  // Check if an update has been requested by the receiver
-  updateReceiver();
+  // if (pClimateTimer->hasPeriodPassed())
+  // {
+  //   updateClimateSensor();
+
+  //   // Reset timer to ensure we do not try and read the sensor
+  //   // again before it is ready
+  //   pClimateTimer->reset();
+  // }
+
+  // if (pLightTimer->hasPeriodPassed())
+  // {
+  //   updateLightSensor();
+  // }
+
+  // TODO - notify wifi of update, at desired interval
 }
 
 void updateClimateSensor()
@@ -107,33 +120,4 @@ void updateLightSensor()
   latestData.light = pLightSensor->getLightPercent();
 
   DEBUG_PRINTLN("Light: %d%", (uint16_t)latestData.light);
-}
-
-void updateReceiver()
-{
-  // Check if the receiver has requested any data from us
-  if (pRadio->isDataAvailable())
-  {
-    // Receive the ID the receiver is requesting to hear from
-    uint8_t id = 0;
-    pRadio->receive(&id, ID_SIZE);
-
-    if (id != PROBE_ID)
-    {
-      // This is the wrong ID for this probe, this should never happen
-      DEBUG_PRINTLN("Received wrong id: %d", id);
-      return;
-    }
-
-    // Receiver wants our latest data, so send it
-    pRadio->setPayloadSize(V_DATA_SIZE);
-    pRadio->startTransmitting(PROBE_ID);
-    if (!pRadio->transmit((uint8_t*)&latestData, V_DATA_SIZE))
-    {
-      DEBUG_PRINTLN("Transmission failed.");
-    }
-
-    pRadio->setPayloadSize(ID_SIZE);
-    pRadio->startReceiving(PROBE_ID);
-  }
 }

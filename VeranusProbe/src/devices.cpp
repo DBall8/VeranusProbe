@@ -2,7 +2,7 @@
 #include "drivers/timer/TicCounter.hpp"
 #include "drivers/timer/ATmega328/ATmega328Timer.hpp"
 #include "drivers/dio/atmega328/Atmega328Dio.hpp"
-#include "drivers/uart/atmega328/Atmega328AsynchUart.hpp"
+#include "drivers/serial/atmega328/Atmega328AsynchUart.hpp"
 #include "drivers/interrupt/atmega328/Atmega328Interrupt.hpp"
 #include "utilities/print/Print.hpp"
 #include "drivers/timer/Delay.hpp"
@@ -13,21 +13,20 @@
 #include "drivers/adc/atmega328/Atmega328Adc.hpp"
 #include "drivers/phototransistor/PhotoTransistor.hpp"
 #include "utilities/filter/lowPassFilter/LowPassFilter.hpp"
-#include "drivers/radio/nrf24l01/Nrf24l01.hpp"
 #include "drivers/spi/atmega328/Atmega328Spi.hpp"
 #include "drivers/pwm/atmega328/Atmega328Pwm.hpp"
+#include "drivers/serial/atmega328/Atmega328SoftwareSerial.hpp"
 
 using namespace Tic;
 using namespace Timer;
 using namespace Dio;
-using namespace Uart;
+using namespace Serial;
 using namespace Interrupt;
 using namespace Lcd;
 using namespace I2c;
 using namespace ClimateSensor;
 using namespace Adc;
 using namespace Filter;
-using namespace Radio;
 using namespace Spi;
 using namespace Pwm;
 
@@ -49,7 +48,7 @@ const static TimerPrescaler PRESCALE = PRESCALE_1024;
 const static uint16_t TOP = 255;
 static Atmega328Timer tmr(Timer::TIMER_2, CTC, PRESCALE, TOP, &HandleTicInterrupt);
 
-// Set up a software timer that decides how often to run the main loop
+// Set up a software timers
 const static uint32_t CLIMATE_UPDATE_TIME_SECONDS = 60;
 const static uint32_t LIGHT_UPDATE_TIME_SECONDS = 15;
 
@@ -81,8 +80,8 @@ static Atmega328Dio rsPin(Port::C, 3, Mode::OUTPUT, Level::L_LOW, false, false);
 static Atmega328Dio rwPin(Port::C, 2, Mode::OUTPUT, Level::L_LOW, false, false);
 static Atmega328Dio oePin(Port::C, 1, Mode::OUTPUT, Level::L_LOW, false, false);
 
-static Atmega328Dio radioCePin(Port::D, 6, Mode::OUTPUT, Level::L_LOW, false, false);
-static Atmega328Dio radioCsnPin(Port::D, 7, Mode::OUTPUT, Level::L_LOW, false, false);
+static Atmega328Dio wifiTxPin(Port::D, 6, Mode::OUTPUT, Level::L_LOW, false, false);
+static Atmega328Dio wifiRxPin(Port::D, 7, Mode::INPUT, Level::L_LOW, false, true);
 
 // TODO - pin for LCD backlight, add PWM control
 static Atmega328Dio lcdBacklightPin(Port::B, 1, Mode::OUTPUT, Level::L_HIGH, false, false);
@@ -105,6 +104,12 @@ IDio** pDataPins = dataPinArray;
 
 uint8_t numPins = sizeof(dataPinArray) / sizeof(dataPinArray[0]);
 
+
+const static uint16_t WIFI_SERIAL_RX_BUFFER_LEN = 16;
+static uint8_t wifiSerialRxBuffer[WIFI_SERIAL_RX_BUFFER_LEN];
+static Atmega328SoftwareSerial wifiSerial(&wifiRxPin, &wifiTxPin, &interruptControl, 9600, F_CPU, wifiSerialRxBuffer, WIFI_SERIAL_RX_BUFFER_LEN);
+ISerial* pWifiSerial = &wifiSerial;
+
 static Dips082Lcd lcd(pRsPin, pRwPin, pOePin, dataPinArray, 4);
 
 static VeranusDisplay display(&lcd);
@@ -120,10 +125,6 @@ static LowPassFilter lightSensorFilter(4, 100);
 static PhotoTransistor lightSensor(&lightSensorAdc, &lightSensorFilter);
 PhotoTransistor* pLightSensor = &lightSensor;
 
-static Atmega328Spi spiDriver(&radioCsnPin, true);
-static Nrf24l01 rfTransceiver(&radioCePin, &spiDriver);
-IRadio* pRadio = &rfTransceiver;
-
 void initializeDevices()
 {
     Delay::Initialize(&ticHandler); // Initialize delay timer
@@ -134,11 +135,14 @@ void initializeDevices()
     serialUart.initialize();                // Start serial communication
     PrintHandler::initialize(&serialUart);  // Initialize print handler
 
-    pDisplay->setup();
-    if (!pClimateSensor->initialize())
-    {
-        PRINTLN("Failed to inialize climate sensor.");
-    }
+    pWifiSerial->initialize();
+
+    // TODO - re-enable
+    // pDisplay->setup();
+    // if (!pClimateSensor->initialize())
+    // {
+    //     PRINTLN("Failed to inialize climate sensor.");
+    // }
 
     //lcdBacklightPwm.enable();
 }

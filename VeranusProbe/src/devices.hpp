@@ -5,15 +5,17 @@
 #include "veranusDisplay/VeranusDisplay.hpp"
 #include "drivers/climateSensor/IClimateSensor.hpp"
 #include "drivers/phototransistor/PhotoTransistor.hpp"
-#include "drivers/radio/IRadio.hpp"
 
 extern ClimateSensor::IClimateSensor* pClimateSensor;
 extern PhotoTransistor* pLightSensor;
 extern VeranusDisplay* pDisplay;
-extern Radio::IRadio* pRadio;
 extern Timer::SoftwareTimer* pUpdateTimer;
 extern Timer::SoftwareTimer* pClimateTimer;
 extern Timer::SoftwareTimer* pLightTimer;
+
+// Todo replace with wifi driver
+#include "drivers/serial/ISerial.hpp"
+extern Serial::ISerial* pWifiSerial;
 
 void initializeDevices();
 
