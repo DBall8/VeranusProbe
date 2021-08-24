@@ -1,0 +1,1246 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans2.ltrans.o (__mulsi3)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o (__udivmodhi4)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o (__divmodhi4)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o (__udivmodsi4)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o (__do_copy_data)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o (__do_clear_bss)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o (__do_global_ctors)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o (__muluhisi3)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o) (__tablejump2__)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o) (__umulhisi3)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o (__subsf3)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o (__nesf2)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o (__divsf3)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o (__fixsfsi)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o (__fixunssfsi)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o (__floatunsisf)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o (__gesf2)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o (__mulsf3)
+c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x00000000        0x0 .pio\build\atmega328\src\ProbeCli.o (symbol from plugin)
+ .data          0x00000000        0x0 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o
+ .text.exit     0x00000000        0x2 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans2.ltrans.o
+ .rodata        0x00000000        0x4 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o
+ .text          0x00000000        0x0 .pio\build\atmega328\src\Settings.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\devices.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5writeEPKcj
+                0x00000000        0x0 .pio\build\atmega328\src\devices.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial4readEPcj
+                0x00000000        0x0 .pio\build\atmega328\src\devices.o (symbol from plugin)
+ .gnu.linkonce.t._ZN9Interrupt10IInterrupt15pauseInterruptsEv
+                0x00000000        0x0 .pio\build\atmega328\src\devices.o (symbol from plugin)
+ .gnu.linkonce.t._ZN9Interrupt10IInterrupt16resumeInterruptsEv
+                0x00000000        0x0 .pio\build\atmega328\src\devices.o (symbol from plugin)
+ .gnu.linkonce.t._ZN13ClimateSensor14IClimateSensor10initializeEv
+                0x00000000        0x0 .pio\build\atmega328\src\devices.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\adc\atmega328\Atmega328Adc.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3Adc12Atmega328AdcE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\adc\atmega328\Atmega328Adc.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\button\analogButton\AnalogButton.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Button7IButton6updateEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\button\analogButton\AnalogButton.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Button7IButtonE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\button\analogButton\AnalogButton.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Button12AnalogButtonE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\button\analogButton\AnalogButton.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\button\analogButton\ButtonChannel.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\button\analogButton\ButtonChannel.o (symbol from plugin)
+ .gnu.linkonce.t._ZN12PrintHandler9flushUartEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\button\analogButton\ButtonChannel.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\button\digitalButton\DigitalButton.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Button7IButton6updateEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\button\digitalButton\DigitalButton.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Button7IButtonE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\button\digitalButton\DigitalButton.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Button13DigitalButtonE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\button\digitalButton\DigitalButton.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\climateSensor\hdc1080\Hdc1080.o (symbol from plugin)
+ .gnu.linkonce.t._ZN13ClimateSensor14IClimateSensor10initializeEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\climateSensor\hdc1080\Hdc1080.o (symbol from plugin)
+ .gnu.linkonce.t._ZN13ClimateSensor14IClimateSensor6updateEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\climateSensor\hdc1080\Hdc1080.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3I2c4II2c6enableEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\climateSensor\hdc1080\Hdc1080.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN13ClimateSensor14IClimateSensorE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\climateSensor\hdc1080\Hdc1080.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN13ClimateSensor20Hdc1080ClimateSensorE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\climateSensor\hdc1080\Hdc1080.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\dio\atmega328\Atmega328Dio.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Dio4IDio3setEh
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\dio\atmega328\Atmega328Dio.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Dio4IDio15enableInterruptEPFvvE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\dio\atmega328\Atmega328Dio.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Dio4IDio16disableInterruptEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\dio\atmega328\Atmega328Dio.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\dio\atmega328\Atmega328Dio.o (symbol from plugin)
+ .gnu.linkonce.t._ZN12PrintHandler9flushUartEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\dio\atmega328\Atmega328Dio.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3Dio4IDioE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\dio\atmega328\Atmega328Dio.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3Dio12Atmega328DioE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\dio\atmega328\Atmega328Dio.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\i2c\atmega328\Atmega328I2c.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3I2c4II2c6enableEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\i2c\atmega328\Atmega328I2c.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3I2c4II2c7disableEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\i2c\atmega328\Atmega328I2c.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3I2c12Atmega328I2cE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\i2c\atmega328\Atmega328I2c.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3I2c4II2cE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\i2c\atmega328\Atmega328I2c.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\interrupt\atmega328\Atmega328Interrupt.o (symbol from plugin)
+ .gnu.linkonce.t._ZN9Interrupt10IInterrupt15pauseInterruptsEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\interrupt\atmega328\Atmega328Interrupt.o (symbol from plugin)
+ .gnu.linkonce.t._ZN9Interrupt10IInterrupt16resumeInterruptsEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\interrupt\atmega328\Atmega328Interrupt.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN9Interrupt10IInterruptE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\interrupt\atmega328\Atmega328Interrupt.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN9Interrupt18Atmega328InterruptE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\interrupt\atmega328\Atmega328Interrupt.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\lcd\dips082\Dips082Lcd.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Lcd4ILcd10initializeEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\lcd\dips082\Dips082Lcd.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3Lcd4ILcdE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\lcd\dips082\Dips082Lcd.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3Lcd10Dips082LcdE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\lcd\dips082\Dips082Lcd.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\phototransistor\PhotoTransistor.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\pwm\atmega328\Atmega328Pwm.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\pwm\atmega328\Atmega328Pwm.o (symbol from plugin)
+ .gnu.linkonce.t._ZN12PrintHandler9flushUartEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\pwm\atmega328\Atmega328Pwm.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3Pwm4IPwmE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\pwm\atmega328\Atmega328Pwm.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3Pwm12Atmega328PwmE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\pwm\atmega328\Atmega328Pwm.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\radio\nrf24l01\Nrf24l01.o (symbol from plugin)
+ .gnu.linkonce.t._ZN5Radio6IRadio17startTransmittingEh
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\radio\nrf24l01\Nrf24l01.o (symbol from plugin)
+ .gnu.linkonce.t._ZN5Radio6IRadio14startReceivingEh
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\radio\nrf24l01\Nrf24l01.o (symbol from plugin)
+ .gnu.linkonce.t._ZN5Radio8Nrf24l0114setPayloadSizeEh
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\radio\nrf24l01\Nrf24l01.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Spi4ISpi11selectSlaveEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\radio\nrf24l01\Nrf24l01.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Spi4ISpi12releaseSlaveEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\radio\nrf24l01\Nrf24l01.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN5Radio8Nrf24l01E
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\radio\nrf24l01\Nrf24l01.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328AsynchUart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5writeEPKcj
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328AsynchUart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial4readEPcj
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328AsynchUart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN9Interrupt10IInterrupt15pauseInterruptsEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328AsynchUart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN9Interrupt10IInterrupt16resumeInterruptsEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328AsynchUart.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Serial19Atmega328AsynchUartE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328AsynchUart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN13CircularQueueIhE4pushEh
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328AsynchUart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN13CircularQueueIhE3popEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328AsynchUart.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial10initializeEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial15isDataAvailableEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5writeEPKcj
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial4readEPcj
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Dio4IDio3setEh
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Dio4IDio15enableInterruptEPFvvE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN9Interrupt10IInterrupt15pauseInterruptsEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN9Interrupt10IInterrupt16resumeInterruptsEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN12PrintHandler9flushUartEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Serial7ISerialE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Serial23Atmega328SoftwareSerialE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN13CircularQueueIhE3popEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .gnu.linkonce.t._ZN13CircularQueueIhE4pushEh
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial10initializeEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial15isDataAvailableEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5writeEPKcj
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial4readEPcj
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o (symbol from plugin)
+ .gnu.linkonce.t._ZN12PrintHandler9flushUartEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Serial7ISerialE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Serial13Atmega328UartE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\spi\atmega328\Atmega328Spi.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Spi4ISpi11selectSlaveEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\spi\atmega328\Atmega328Spi.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Spi4ISpi12releaseSlaveEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\spi\atmega328\Atmega328Spi.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3Spi12Atmega328SpiE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\spi\atmega328\Atmega328Spi.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN3Spi4ISpiE
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\spi\atmega328\Atmega328Spi.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\thermistor\tmp36\Tmp36.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN10Thermistor5Tmp36E
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\thermistor\tmp36\Tmp36.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\timer\Delay.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\timer\Delay.o (symbol from plugin)
+ .gnu.linkonce.t._ZN12PrintHandler9flushUartEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\timer\Delay.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\timer\SoftwareTimer.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\timer\TicCounter.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\drivers\timer\atmega328\ATmega328Timer.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\timer\atmega328\ATmega328Timer.o (symbol from plugin)
+ .gnu.linkonce.t._ZN12PrintHandler9flushUartEv
+                0x00000000        0x0 .pio\build\atmega328\src\drivers\timer\atmega328\ATmega328Timer.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\main.o (symbol from plugin)
+ .gnu.linkonce.t._ZN13ClimateSensor14IClimateSensor6updateEv
+                0x00000000        0x0 .pio\build\atmega328\src\main.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\utilities\cli\CommandInterface.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial15isDataAvailableEv
+                0x00000000        0x0 .pio\build\atmega328\src\utilities\cli\CommandInterface.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\utilities\filter\lowPassFilter\LowPassFilter.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Filter7IFilterE
+                0x00000000        0x0 .pio\build\atmega328\src\utilities\filter\lowPassFilter\LowPassFilter.o (symbol from plugin)
+ .gnu.linkonce.t._ZTVN6Filter13LowPassFilterE
+                0x00000000        0x0 .pio\build\atmega328\src\utilities\filter\lowPassFilter\LowPassFilter.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\utilities\print\Print.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\utilities\print\Print.o (symbol from plugin)
+ .gnu.linkonce.t._ZN12PrintHandler9flushUartEv
+                0x00000000        0x0 .pio\build\atmega328\src\utilities\print\Print.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\utilities\strings\Strings.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\veranusDisplay\VeranusDisplay.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3Lcd4ILcd10initializeEv
+                0x00000000        0x0 .pio\build\atmega328\src\veranusDisplay\VeranusDisplay.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\veranusDisplay\VeranusDisplay.o (symbol from plugin)
+ .gnu.linkonce.t._ZN12PrintHandler9flushUartEv
+                0x00000000        0x0 .pio\build\atmega328\src\veranusDisplay\VeranusDisplay.o (symbol from plugin)
+ .text          0x00000000        0x0 .pio\build\atmega328\src\wifiInterface\WifiInterface.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial10initializeEv
+                0x00000000        0x0 .pio\build\atmega328\src\wifiInterface\WifiInterface.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial15isDataAvailableEv
+                0x00000000        0x0 .pio\build\atmega328\src\wifiInterface\WifiInterface.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5flushEv
+                0x00000000        0x0 .pio\build\atmega328\src\wifiInterface\WifiInterface.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial5writeEPKcj
+                0x00000000        0x0 .pio\build\atmega328\src\wifiInterface\WifiInterface.o (symbol from plugin)
+ .gnu.linkonce.t._ZN6Serial7ISerial4readEPcj
+                0x00000000        0x0 .pio\build\atmega328\src\wifiInterface\WifiInterface.o (symbol from plugin)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD .pio\build\atmega328\src\ProbeCli.o
+LOAD C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o
+LOAD C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o
+LOAD C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans2.ltrans.o
+LOAD C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o
+LOAD C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o
+LOAD .pio\build\atmega328\src\Settings.o
+LOAD .pio\build\atmega328\src\devices.o
+LOAD .pio\build\atmega328\src\drivers\adc\atmega328\Atmega328Adc.o
+LOAD .pio\build\atmega328\src\drivers\button\analogButton\AnalogButton.o
+LOAD .pio\build\atmega328\src\drivers\button\analogButton\ButtonChannel.o
+LOAD .pio\build\atmega328\src\drivers\button\digitalButton\DigitalButton.o
+LOAD .pio\build\atmega328\src\drivers\climateSensor\hdc1080\Hdc1080.o
+LOAD .pio\build\atmega328\src\drivers\dio\atmega328\Atmega328Dio.o
+LOAD .pio\build\atmega328\src\drivers\i2c\atmega328\Atmega328I2c.o
+LOAD .pio\build\atmega328\src\drivers\interrupt\atmega328\Atmega328Interrupt.o
+LOAD .pio\build\atmega328\src\drivers\lcd\dips082\Dips082Lcd.o
+LOAD .pio\build\atmega328\src\drivers\phototransistor\PhotoTransistor.o
+LOAD .pio\build\atmega328\src\drivers\pwm\atmega328\Atmega328Pwm.o
+LOAD .pio\build\atmega328\src\drivers\radio\nrf24l01\Nrf24l01.o
+LOAD .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328AsynchUart.o
+LOAD .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328SoftwareSerial.o
+LOAD .pio\build\atmega328\src\drivers\serial\atmega328\Atmega328Uart.o
+LOAD .pio\build\atmega328\src\drivers\spi\atmega328\Atmega328Spi.o
+LOAD .pio\build\atmega328\src\drivers\thermistor\tmp36\Tmp36.o
+LOAD .pio\build\atmega328\src\drivers\timer\Delay.o
+LOAD .pio\build\atmega328\src\drivers\timer\SoftwareTimer.o
+LOAD .pio\build\atmega328\src\drivers\timer\TicCounter.o
+LOAD .pio\build\atmega328\src\drivers\timer\atmega328\ATmega328Timer.o
+LOAD .pio\build\atmega328\src\main.o
+LOAD .pio\build\atmega328\src\utilities\cli\CommandInterface.o
+LOAD .pio\build\atmega328\src\utilities\filter\lowPassFilter\LowPassFilter.o
+LOAD .pio\build\atmega328\src\utilities\print\Print.o
+LOAD .pio\build\atmega328\src\utilities\strings\Strings.o
+LOAD .pio\build\atmega328\src\veranusDisplay\VeranusDisplay.o
+LOAD .pio\build\atmega328\src\wifiInterface\WifiInterface.o
+START GROUP
+END GROUP
+LOAD c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+START GROUP
+LOAD c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega328p.a
+END GROUP
+                0x00020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x3f84
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000068                __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000068        0x2 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o
+                0x0000006a                __ctors_end = .
+                0x0000006a                __dtors_start = .
+ *(.dtors)
+                0x0000006a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000006a        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000006a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000006a        0xc c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000076       0x16 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x00000076                __do_copy_data
+ .init4         0x0000008c       0x10 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000008c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000009c       0x16 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+                0x0000009c                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000b2        0x8 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000ba        0x4 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x000000ba                __vector_22
+                0x000000ba                __vector_1
+                0x000000ba                __vector_24
+                0x000000ba                __vector_12
+                0x000000ba                __bad_interrupt
+                0x000000ba                __vector_6
+                0x000000ba                __vector_23
+                0x000000ba                __vector_25
+                0x000000ba                __vector_13
+                0x000000ba                __vector_9
+                0x000000ba                __vector_2
+                0x000000ba                __vector_21
+                0x000000ba                __vector_15
+                0x000000ba                __vector_8
+                0x000000ba                __vector_10
+                0x000000ba                __vector_16
+                0x000000ba                __vector_20
+ .text          0x000000be      0x762 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o
+                0x000000be                _ZN3Adc12Atmega328Adc4readEPb
+                0x00000110                _ZN3Adc12Atmega328Adc7disableEv
+                0x0000011c                _ZN3Adc12Atmega328Adc6enableEv
+                0x00000128                _Z18HandleTicInterruptv
+                0x00000144                _ZN9Interrupt10IInterrupt16resumeInterruptsEv
+                0x00000164                _ZN9Interrupt10IInterrupt15pauseInterruptsEv
+                0x00000190                _ZN6Serial7ISerial4readEPcj
+                0x0000019e                _ZN6Serial7ISerial5writeEPKcj
+                0x000001ac                _ZL16setLcdBrightnessjPPc.lto_priv.85
+                0x00000278                _ZL8setDebugjPPc.lto_priv.87
+                0x0000030e                _ZL11setTempUnitjPPc.lto_priv.88
+                0x000004b8                _ZL13setWifiConfigjPPc.lto_priv.86
+                0x0000080a                _ZN12PrintHandler9flushUartEv
+ .text          0x00000820      0x31a C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o
+                0x000008b4                _ZN7Strings10strnconcatEPcPKcm.constprop.75
+                0x00000914                _ZN7Strings7int2strEiPcjh.constprop.74
+                0x000009d2                _ZN13WifiInterface15receiveResponseERb.constprop.71
+                0x00000ab6                _ZN3I2c12Atmega328I2c4stopEv.constprop.26
+                0x00000ac8                _ZN3I2c12Atmega328I2c4waitEv.constprop.25
+ .text          0x00000b3a      0x80e C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans2.ltrans.o
+                0x00000b3a                __cxa_pure_virtual
+                0x00000b3c                _ZN6Serial13Atmega328Uart4readEPhj
+                0x00000b5e                _ZN6Serial13Atmega328Uart5writeEPKhj
+                0x00000b7c                _ZN6Serial23Atmega328SoftwareSerial5flushEv
+                0x00000b8c                _ZN6Serial23Atmega328SoftwareSerial5writeEPKhj
+                0x00000c4e                _ZN6Serial23Atmega328SoftwareSerial15isDataAvailableEv
+                0x00000c54                _ZN6Serial7ISerial15isDataAvailableEv
+                0x00000c54                _ZN13ClimateSensor14IClimateSensor6updateEv
+                0x00000c58                _ZN3I2c4II2c6enableEv
+                0x00000c58                _ZN3Dio4IDio16disableInterruptEv
+                0x00000c58                _ZN6Serial7ISerial10initializeEv
+                0x00000c58                _ZN3I2c4II2c7disableEv
+                0x00000c58                _ZN6Serial7ISerial5flushEv
+                0x00000c5a                _ZN6Serial23Atmega328SoftwareSerial10initializeEv
+                0x00000cd8                __vector_7
+                0x00000d26                __vector_11
+                0x00000d74                __vector_14
+                0x00000dc2                _ZN5Timer13SoftwareTimer6updateEv
+                0x00000ea6                _ZN5Timer13SoftwareTimer6enableEv
+                0x00000ed2                _ZN5Delay5delayEm
+                0x00000fc0                __vector_17
+                0x00000fda                _ZN6Serial13Atmega328Uart11setBaudRateENS_8BaudRateEm
+                0x00001080                _ZN6Serial13Atmega328Uart10initializeEv
+                0x000010b8                _ZN13CircularQueueIhE3popEv
+                0x00001140                _ZN6Serial23Atmega328SoftwareSerial4readEPhj
+                0x000011de                _ZN13CircularQueueIhE4pushEh
+ .text          0x00001348      0xcfa C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o
+                0x00001348                _ZN6Serial19Atmega328AsynchUart5flushEv
+                0x000013b8                _ZN6Serial19Atmega328AsynchUart15isDataAvailableEv
+                0x000013ca                _ZN3Pwm12Atmega328Pwm12setDutyCycleEf
+                0x00001448                _ZN3Pwm12Atmega328Pwm7disableEv
+                0x00001448                _ZN3Pwm12Atmega328Pwm6enableEv
+                0x0000144a                _ZN13ClimateSensor14IClimateSensor10initializeEv
+                0x0000144a                _ZN3Lcd4ILcd10initializeEv
+                0x0000144e                _ZN9Interrupt18Atmega328Interrupt17disableInterruptsEv
+                0x00001456                _ZN9Interrupt18Atmega328Interrupt16enableInterruptsEv
+                0x00001460                _ZN9Interrupt18Atmega328Interrupt20areInterruptsEnabledEv
+                0x00001466                _ZN3I2c12Atmega328I2c7disableEv
+                0x00001476                _ZN3I2c12Atmega328I2c6enableEv
+                0x00001488                _ZN3Dio12Atmega328Dio16disableInterruptEv
+                0x000014bc                _ZN3Dio12Atmega328Dio15enableInterruptEPFvvE
+                0x00001520                _ZN3Dio12Atmega328Dio4readEv
+                0x00001552                _ZN3Dio12Atmega328Dio6toggleEv
+                0x00001588                _ZN3Dio12Atmega328Dio3setEh
+                0x000015c2                _ZN3Dio12Atmega328Dio3setENS_5LevelE
+                0x00001612                _ZN3Dio4IDio15enableInterruptEPFvvE
+                0x00001614                _ZN3Dio4IDio3setEh
+                0x0000162c                _ZN13ClimateSensor20Hdc1080ClimateSensor19getRelativeHumidityEv
+                0x00001638                _ZN13ClimateSensor20Hdc1080ClimateSensor24getTemperatureFahrenheitEv
+                0x0000165c                _ZN13ClimateSensor20Hdc1080ClimateSensor21getTemperatureCelsiusEv
+                0x00001668                _ZN6Serial19Atmega328AsynchUart4readEPhj
+                0x000016f8                _ZN6Serial19Atmega328AsynchUart5writeEPKhj
+                0x000017f0                _ZN6Serial19Atmega328AsynchUart10initializeEv
+                0x0000185e                _ZN13ClimateSensor20Hdc1080ClimateSensor6updateEv
+                0x00001992                _ZN13ClimateSensor20Hdc1080ClimateSensor10initializeEv
+                0x000019d6                _ZN3Lcd10Dips082Lcd5clearEv
+                0x000019f2                _ZN3Lcd10Dips082Lcd9setCursorEhh
+                0x00001a26                _ZN3Lcd10Dips082Lcd10initializeEv
+                0x00001b6e                _ZN3Lcd10Dips082Lcd7displayEh
+                0x00001bc8                _ZN3Lcd10Dips082Lcd7displayEPKch
+                0x00001c5a                _ZN3I2c12Atmega328I2c7receiveEhRh
+                0x00001cb2                _ZN3I2c12Atmega328I2c7receiveEhPhj
+                0x00001d4a                _ZN3I2c12Atmega328I2c8transmitEhh
+                0x00001db0                _ZN3I2c12Atmega328I2c8transmitEhPhj
+                0x00001e40                __vector_19
+                0x00001e9e                __vector_18
+                0x00001ef2                _ZL6assertbPKc.part.0.lto_priv.90
+                0x00001ef2                _ZL6assertbPKc.part.2.lto_priv.89
+                0x00001f4c                __vector_5
+                0x00001f9e                __vector_4
+                0x00001ff0                __vector_3
+ .text          0x00002042      0xd08 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o
+                0x00002042                _ZN6Filter13LowPassFilter13getValueFloatEv
+                0x0000204e                _ZN6Filter13LowPassFilter9addSampleEf
+                0x000020d6                _ZN6Filter13LowPassFilter11getValueIntEv
+                0x000020e8                _ZN6Filter13LowPassFilter9addSampleEi
+                0x00002110                _ZN3Lcd10Dips082Lcd11setDataBitsEh.constprop.16
+                0x00002178                _ZN3Lcd10Dips082Lcd9pulseDataEh.constprop.15
+                0x000021ba                _ZN3Lcd10Dips082Lcd4sendEhb.constprop.14
+                0x0000222a                _ZN3Lcd10Dips082Lcd11sendCommandEh.constprop.13
+                0x00002230                _ZN7Strings10strcompareEPKcS1_
+                0x00002250                _ZN7Strings4copyEPcPKcj
+                0x00002268                _ZN7Strings6strlenEPKc
+                0x00002282                _ZN14VeranusDisplay6updateEff
+                0x0000249e                _ZN7Strings7reverseEPc
+                0x00002586                _ZN7Strings9float2strEfPcjh
+                0x000026de                _ZL6assertbPKc.lto_priv.83.lto_priv.84
+                0x000026de                _ZL6assertbPKc.lto_priv.94.lto_priv.118
+                0x00002746                _ZN12PrintHandler5printEPKcbz
+                0x00002a56                _ZN3I2c12Atmega328I2c5startEv.constprop.24
+                0x00002a9e                _ZN3I2c12Atmega328I2c16sendSlaveAddressEhb.constprop.23
+                0x00002b0c                _ZN3I2c12Atmega328I2c11receiveDataERhb.constprop.19
+                0x00002b82                _Z17updateLightSensorv
+                0x00002c44                _Z19updateClimateSensorv
+                0x00002d4a                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x00002d4a      0x77e C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o
+ .text.startup  0x000034c8      0x548 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans2.ltrans.o
+                0x000034c8                main
+ .text.libgcc.mul
+                0x00003a10       0x20 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+                0x00003a10                __mulsi3
+ .text.libgcc.div
+                0x00003a30       0x28 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x00003a30                __udivmodhi4
+ .text.libgcc.div
+                0x00003a58       0x28 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                0x00003a58                _div
+                0x00003a58                __divmodhi4
+ .text.libgcc.div
+                0x00003a80       0x44 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00003a80                __udivmodsi4
+ .text.libgcc.mul
+                0x00003ac4       0x16 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00003ac4                __muluhisi3
+ .text.libgcc   0x00003ada        0xc c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x00003ada                __tablejump2__
+ .text.libgcc.mul
+                0x00003ae6       0x1e c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00003ae6                __umulhisi3
+ .text.avr-libc.fplib
+                0x00003b04        0xe c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x00003b04                __subsf3
+                0x00003b06                __addsf3
+ .text.avr-libc.fplib
+                0x00003b12       0xcc c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x00003b34                __addsf3x
+ .text.avr-libc.fplib
+                0x00003bde        0xa c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                0x00003bde                __nesf2
+                0x00003bde                __eqsf2
+                0x00003bde                __cmpsf2
+                0x00003bde                __ltsf2
+                0x00003bde                __lesf2
+ .text.avr-libc.fplib
+                0x00003be8        0x8 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00003be8                __divsf3
+ .text.avr-libc.fplib
+                0x00003bf0       0xdc c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00003c10                __divsf3x
+                0x00003c16                __divsf3_pse
+ .text.avr-libc.fplib
+                0x00003ccc        0xe c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                0x00003ccc                __fixsfsi
+ .text.avr-libc.fplib
+                0x00003cda       0x5e c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x00003cda                __fixunssfsi
+ .text.avr-libc.fplib
+                0x00003d38       0x7a c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x00003d38                __floatunsisf
+                0x00003d3c                __floatsisf
+ .text.avr-libc.fplib
+                0x00003db2       0x48 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                0x00003db2                __fp_cmp
+ .text.avr-libc.fplib
+                0x00003dfa        0xc c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x00003dfa                __fp_inf
+ .text.avr-libc.fplib
+                0x00003e06        0x6 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00003e06                __fp_nan
+ .text.avr-libc.fplib
+                0x00003e0c        0xe c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x00003e0c                __fp_pscA
+ .text.avr-libc.fplib
+                0x00003e1a        0xe c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00003e1a                __fp_pscB
+ .text.avr-libc.fplib
+                0x00003e28       0x22 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00003e28                __fp_round
+ .text.avr-libc.fplib
+                0x00003e4a       0x44 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x00003e4a                __fp_split3
+                0x00003e5a                __fp_splitA
+ .text.avr-libc.fplib
+                0x00003e8e        0xe c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x00003e8e                __fp_zero
+                0x00003e90                __fp_szero
+ .text.avr-libc.fplib
+                0x00003e9c        0xa c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                0x00003e9c                __gesf2
+                0x00003e9c                __gtsf2
+ .text.avr-libc.fplib
+                0x00003ea6        0x8 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00003ea6                __mulsf3
+ .text.avr-libc.fplib
+                0x00003eae       0xd2 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00003ecc                __mulsf3x
+                0x00003ed2                __mulsf3_pse
+                0x00003f80                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003f80        0x0 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00003f80                _exit
+                0x00003f80                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003f80        0x4 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00003f84                _etext = .
+
+.data           0x00800100      0x4f2 load address 0x00003f84
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x8 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o
+                0x00800100                _ZL12dataPinArray.lto_priv.134
+ .data          0x00800108        0x3 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o
+ .data          0x0080010b        0xe C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o
+                0x0080010b                settings
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x00800119        0xf C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o
+ .rodata        0x00800128      0x14b C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o
+                0x00800138                _ZN7Strings5A_VALE
+                0x00800139                _ZN7Strings8ZERO_VALE
+                0x0080013a                _ZN7Strings19MAX_NUMERICAL_DIGITE
+                0x0080013b                _ZL10HUMID_TEXT.lto_priv.107
+                0x0080013d                _ZL9TEMP_TEXT.lto_priv.105
+                0x0080013f                _ZL7NEWLINE.lto_priv.93
+                0x00800141                _ZTVN6Filter13LowPassFilterE
+                0x0080014d                _ZTVN6Filter7IFilterE
+                0x00800159                _ZTVN13ClimateSensor20Hdc1080ClimateSensorE
+                0x00800167                _ZTVN3I2c12Atmega328I2cE
+                0x00800177                _ZTVN3I2c4II2cE
+                0x00800187                _ZTVN3Lcd10Dips082LcdE
+                0x00800195                _ZTVN3Lcd4ILcdE
+                0x008001c1                _ZTVN3Pwm12Atmega328PwmE
+                0x008001cb                _ZTVN6Serial13Atmega328UartE
+                0x008001dd                _ZTVN6Serial7ISerialE
+                0x008001ef                _ZTVN6Serial19Atmega328AsynchUartE
+                0x00800201                _ZTVN9Interrupt10IInterruptE
+                0x0080020f                _ZN5TimerL19PRESCALE_VALUE_TIM2E.lto_priv.109
+                0x00800219                _ZN5TimerL14PRESCALE_VALUEE.lto_priv.108
+                0x00800223                _ZTVN9Interrupt18Atmega328InterruptE
+                0x00800231                _ZTVN3Dio12Atmega328DioE
+                0x00800241                _ZTVN3Adc12Atmega328AdcE
+                0x0080024b                _ZTVN6Serial23Atmega328SoftwareSerialE
+                0x0080025d                pRsPin
+                0x0080025f                pRwPin
+                0x00800261                pOePin
+ .rodata        0x00800273       0x21 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans2.ltrans.o
+                0x0080028d                _ZL11TEMP_UNIT_F.lto_priv.139
+                0x0080028f                _ZL7NEWLINE.lto_priv.140
+                0x00800292                pWifiInterface
+ .rodata        0x00800294       0x18 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x008002ac       0xcc C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o
+                                 0xce (size before relaxing)
+ .rodata.str1.1
+                0x00800378       0x6f C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o
+                                 0x72 (size before relaxing)
+ .rodata.str1.1
+                0x008003e7       0xaf C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans2.ltrans.o
+                                 0xb9 (size before relaxing)
+ .rodata.str1.1
+                0x00800496       0x84 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o
+                                 0x86 (size before relaxing)
+ .rodata.str1.1
+                0x0080051a       0xd8 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o
+                                 0xee (size before relaxing)
+ *(.gnu.linkonce.r*)
+                0x008005f2                . = ALIGN (0x2)
+                0x008005f2                _edata = .
+                0x008005f2                PROVIDE (__data_end, .)
+
+.bss            0x008005f2      0x2a3
+                0x008005f2                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008005f2      0x26a C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o
+                0x008005f2                _ZN12PrintHandler9outputStrE
+                0x00800673                _ZL14HUMID_TEXT_LEN.lto_priv.106
+                0x00800674                _ZL13TEMP_TEXT_LEN.lto_priv.104
+                0x00800675                _ZL14NEWLINE_LENGTH.lto_priv.92
+                0x00800676                _ZL12stringBuffer.lto_priv.91
+                0x0080067b                _ZN6Serial19Atmega328AsynchUart18pInterruptControl_E
+                0x0080067d                _ZN6Serial19Atmega328AsynchUart10pRxBuffer_E
+                0x0080067f                _ZN6Serial19Atmega328AsynchUart10pTxBuffer_E
+                0x00800681                _ZN5TimerL23Timer2CompareAInterruptE.lto_priv.110
+                0x00800683                _ZN5TimerL23Timer1CompareAInterruptE.lto_priv.111
+                0x00800685                _ZN5TimerL23Timer0CompareAInterruptE.lto_priv.112
+                0x00800687                _ZL13wifiInterface.lto_priv.117
+                0x0080069b                _ZL16wifiTimeoutTimer.lto_priv.138
+                0x008006ad                _ZL11lightSensor.lto_priv.96
+                0x008006b1                _ZL17lightSensorFilter.lto_priv.137
+                0x008006bd                _ZL13climateSensor.lto_priv.97
+                0x008006db                _ZL3i2c.lto_priv.136
+                0x008006e0                _ZL15i2cTimeoutTimer.lto_priv.135
+                0x008006f2                _ZL7display.lto_priv.98
+                0x008006f8                _ZL3lcd.lto_priv.133
+                0x00800705                _ZL18wifiSerialRxBuffer.lto_priv.132
+                0x00800725                _ZL10wifiSerial.lto_priv.131
+                0x00800742                _ZL14lightSensorAdc.lto_priv.130
+                0x00800746                _ZL15lcdBacklightPwm.lto_priv.103
+                0x0080074c                _ZL9wifiRxPin.lto_priv.129
+                0x00800752                _ZL9wifiTxPin.lto_priv.128
+                0x00800758                _ZL5oePin.lto_priv.127
+                0x0080075e                _ZL5rwPin.lto_priv.126
+                0x00800764                _ZL5rsPin.lto_priv.125
+                0x0080076a                _ZL8dataPin3.lto_priv.124
+                0x00800770                _ZL8dataPin2.lto_priv.123
+                0x00800776                _ZL8dataPin1.lto_priv.122
+                0x0080077c                _ZL8dataPin0.lto_priv.121
+                0x00800782                _ZL8rxBuffer.lto_priv.120
+                0x008007a2                _ZL8txBuffer.lto_priv.119
+                0x008007e2                _ZL10serialUart.lto_priv.102
+                0x0080080a                _ZL16interruptControl.lto_priv.100
+                0x0080080e                _ZL10lightTimer.lto_priv.115
+                0x00800820                _ZL12climateTimer.lto_priv.114
+                0x00800832                _ZL11updateTimer.lto_priv.113
+                0x00800844                _ZL3tmr.lto_priv.101
+                0x0080084b                _ZL10ticHandler.lto_priv.99
+                0x00800853                _ZL8probeCli.lto_priv.116
+ .bss           0x0080085c       0x2d C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans2.ltrans.o
+ .bss           0x00800889        0x6 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o
+ .bss           0x0080088f        0x6 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o
+                0x0080088f                _ZN12PrintHandler8pSerial_E
+ *(.bss*)
+ *(COMMON)
+                0x00800895                PROVIDE (__bss_end, .)
+                0x00003f84                __data_load_start = LOADADDR (.data)
+                0x00004476                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800895        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x00800895                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans0.ltrans.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans1.ltrans.o
+ .comment       0x00000030       0x31 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans2.ltrans.o
+ .comment       0x00000030       0x31 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans3.ltrans.o
+ .comment       0x00000030       0x31 C:\Users\dabal\AppData\Local\Temp\cclVjNqU.ltrans4.ltrans.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x5f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_abbrev   0x00000000      0x5a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_line     0x00000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x208
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 c:/users/dabal/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(.pio\build\atmega328\firmware.elf elf32-avr)
+LOAD linker stubs
